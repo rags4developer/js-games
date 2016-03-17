@@ -1,4 +1,5 @@
-changeCanvasColor = function () {
+"use strict"; //Prevents a variable from being used before its declared.
+var changeCanvasColor = function () {
     //Get the canvas object from the DOM
     var canvas = document.getElementById("mycanvas");
     //Get a context object. The object provides functions to perform operations on the canvas, such as drawing.
